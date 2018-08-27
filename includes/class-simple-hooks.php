@@ -134,7 +134,7 @@ class wcsh_Loader {
 		// woocommerce_archive_description
 		add_action('woocommerce_archive_description', 'wcsh_archive_description', 100);
 		function wcsh_archive_description(){
-			echo get_option('wcsh_archive_description');
+			echo '<span class="wcsh_archive_description">' .get_option('wcsh_archive_description'). '</span>';
 		}
 		
 		// woocommerce_before_shop_loop

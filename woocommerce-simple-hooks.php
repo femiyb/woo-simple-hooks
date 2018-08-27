@@ -298,7 +298,7 @@ function wcsh_settings_page(){
 function wcsh_notice() {
     ?>
     <div class="error notice">
-    <p>Simple Hooks Plugin requires the Woocommerce Plugin</p>
+    <p>Simple Hooks Plugin requires the WooCommerce Plugin</p>
     </div>
     <?php
 }

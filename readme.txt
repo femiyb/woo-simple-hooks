@@ -8,7 +8,7 @@ Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Lets you add hooks to WooCommerce without having to do code it in your functions.php
+Lets you add hooks to WooCommerce without having to code it in your functions.php
 
 == Description ==
 
