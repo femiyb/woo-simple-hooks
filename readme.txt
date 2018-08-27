@@ -23,7 +23,7 @@ Or install direct from the Plugin Repository using the Plugins system in WordPre
 
 == Frequently Asked Questions ==
 
-= Where do I find the seetings? =
+= Where do I find the settings? =
 
 Under WooCommerce -> Simple Hooks Settings
 
