@@ -1,10 +1,9 @@
 === WooCommerce Simple Hooks ===
-Contributors: 
-Donate link: 
+Contributors: femiyb
 Tags: woocommerce, hooks
 Requires at least: 4.4
 Tested up to: 4.9.8
-Stable tag: 0.1.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,16 +22,28 @@ This plugin makes it easier for you to add WooCommerce hooks, so if you don't kn
 
 Or install direct from the Plugin Repository using the Plugins system in WordPress.
 
+== Frequently Asked Questions ==
+
+= Where do I find the seetings? =
+
+Under WooCommerce -> Simple Hooks Settings
+
+= Can I contribute to the plugin? =
+
+Of course! Please fork the [GitHub](https://github.com/femiyb/woo-simple-hooks/) repository and send a pull request.
 
 == Screenshots ==
+
+1. Simple Hooks Settings Page
+
+2. Shop Page with Simple Hooks
 
 
 == Changelog ==
 
+= 0.2 - 27/08/2018 =
+* All functions, screenshots updated
 
 = 0.1.1 =
 Initial release.
-
-
-
 
