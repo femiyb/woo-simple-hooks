@@ -3,7 +3,7 @@ Contributors: femiyb
 Tags: woocommerce, hooks
 Requires at least: 4.4
 Tested up to: 4.9.8
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,10 +39,13 @@ Of course! Please fork the [GitHub](https://github.com/femiyb/woo-simple-hooks/)
 
 == Changelog ==
 
-= 1.0 - 28/08/2018
+= 1.0.1 - 28/08/2018 =
+* Fixed bug on textarea-values.
+
+= 1.0 - 28/08/2018 =
 * Fix Plugin Name.
 
-= 0.3 - 27/08/2018
+= 0.3 - 27/08/2018 =
 * Functions update.
 
 = 0.2 - 27/08/2018 =

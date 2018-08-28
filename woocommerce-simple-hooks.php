@@ -7,7 +7,7 @@
  * Plugin Name:       Simple Hooks for WooCommerce
  * Plugin URI:        http://femiyb.co.za
  * Description:       This plugin makes it easier for you to add WooCommerce hooks, so if you don't know your way around php, you can easily add the hooks from the dashboard.
- * Version:           1.0
+ * Version:           1.0.1
  * Author:            Femi
  * Author URI:        http://www.femiyb.com
  * License:            GPL-2.0+
@@ -197,7 +197,7 @@ function wcsh_settings_page(){
 				<table class="form-table">
 				<tr valign="top">
 				<th scope="row"><?php echo $key; ?></th>
-				<td><textarea name="<?php echo $singleproducthook; ?>" class="wcsh-textarea" value="<?php echo get_option($singleproducthook); ?>"><?php 					echo get_option($singleproducthook); ?></textarea></td>
+				<td><textarea name="<?php echo $singleproducthook; ?>" class="wcsh-textarea"><?php echo get_option($singleproducthook); ?></textarea></td>
 			 	</tr>
     			</table>	
 				<?php }
@@ -212,7 +212,7 @@ function wcsh_settings_page(){
 				<table class="form-table">
 				<tr valign="top">
 				<th scope="row"><?php echo $key; ?></th>
-				<td><textarea name="<?php echo $cartpagehook; ?>" class="wcsh-textarea" value="<?php echo get_option($cartpagehook); ?>"><?php echo 					get_option($cartpagehook); ?></textarea></td>
+				<td><textarea name="<?php echo $cartpagehook; ?>" class="wcsh-textarea"><?php echo get_option($cartpagehook); ?></textarea></td>
 				  </tr>
 				</table>
     		<?php
@@ -228,7 +228,7 @@ function wcsh_settings_page(){
 				<table class="form-table">
 				<tr valign="top">
 				<th scope="row"><?php echo $key; ?></th>
-				<td><textarea name="<?php echo $checkoutpagehook; ?>" class="wcsh-textarea" value="<?php echo get_option($checkoutpagehook); ?>"><?php echo 					get_option($checkoutpagehook); ?></textarea></td>
+				<td><textarea name="<?php echo $checkoutpagehook; ?>" class="wcsh-textarea"><?php echo get_option($checkoutpagehook); ?></textarea></td>
 				  </tr>
 				</table>
     		<?php
@@ -244,7 +244,7 @@ function wcsh_settings_page(){
 			<table class="form-table">
 			<tr valign="top">
 			<th scope="row"><?php echo $key; ?></th>
-			<td><textarea name="<?php echo $accountpagehook; ?>" class="wcsh-textarea" value="<?php echo get_option($accountpagehook); ?>"><?php echo get_option($accountpagehook); ?></textarea></td>
+			<td><textarea name="<?php echo $accountpagehook; ?>" class="wcsh-textarea"><?php echo get_option($accountpagehook); ?></textarea></td>
 			  </tr>
     		</table>
     		<?php
@@ -260,7 +260,7 @@ function wcsh_settings_page(){
 			<table class="form-table">
 			<tr valign="top">
 			<th scope="row"><?php echo $key; ?></th>
-			<td><textarea name="<?php echo $otherhook; ?>" class="wcsh-textarea" value="<?php echo get_option($otherhook); ?>"><?php echo get_option($otherhook); ?></textarea></td>
+			<td><textarea name="<?php echo $otherhook; ?>" class="wcsh-textarea"><?php echo get_option($otherhook); ?></textarea></td>
 			  </tr>
     		</table>
     		<?php
@@ -277,7 +277,7 @@ function wcsh_settings_page(){
 			<table class="form-table">
 			<tr valign="top">
 			<th scope="row"><?php echo $key; ?></th>
-			<td><textarea name="<?php echo $shophook; ?>" class="wcsh-textarea" value="<?php echo get_option($shophook); ?>"><?php echo get_option($shophook); ?></textarea></td>
+			<td><textarea name="<?php echo $shophook; ?>" class="wcsh-textarea"><?php echo get_option($shophook); ?></textarea></td>
 			</tr>
 			</table>
 
