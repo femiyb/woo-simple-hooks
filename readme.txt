@@ -1,4 +1,4 @@
-=== WooCommerce Simple Hooks ===
+=== Simple Hooks for WooCommerce ===
 Contributors: femiyb
 Tags: woocommerce, hooks
 Requires at least: 4.4
