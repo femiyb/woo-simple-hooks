@@ -168,6 +168,12 @@ function wcsh_settings_page(){
 
   		<h1>Simple Hooks Settings</h1>
   		<form method="post" action="options.php">
+  			<style>
+			textarea.wcsh-textarea {
+				width: 600px;
+				height: 100px;	
+				}
+			</style>
 
   			<?php
             if( isset( $_GET[ 'tab' ] ) ) {

@@ -41,6 +41,7 @@ Of course! Please fork the [GitHub](https://github.com/femiyb/woo-simple-hooks/)
 
 = 1.0.1 - 28/08/2018 =
 * Fixed bug on textarea-values.
+* Fixed styling on textarea.
 
 = 1.0 - 28/08/2018 =
 * Fix Plugin Name.
