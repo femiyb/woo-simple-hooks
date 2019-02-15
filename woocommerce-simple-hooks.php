@@ -4,16 +4,20 @@
  * @link:       http://www.femiyb.com
  * @package           Woo_Simple_Hooks
  *
- * Plugin Name:       Simple Hooks for WooCommerce
- * Plugin URI:        http://femiyb.co.za
- * Description:       This plugin makes it easier for you to add WooCommerce hooks, so if you don't know your way around php, you can easily add the hooks from the dashboard.
- * Version:           1.0.1
- * Author:            Femi
- * Author URI:        http://www.femiyb.com
- * License:            GPL-2.0+
- * License URI:        http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:            woo-simple-hooks
- * Domain Path:            /languages
+ * Plugin Name:       	Simple Hooks for WooCommerce
+ * Plugin URI:        	http://femiyb.co.za
+ * Description:       	This plugin makes it easier for you to add WooCommerce hooks, so if you don't know your way around php, you can easily add the hooks from the dashboard.
+ * Version:           	1.0.2
+ * Requires at least: 	4.4
+ * Tested up to: 		5.0.3
+ * WC requires at least:3.0.0
+ * WC tested up to: 	3.5.4
+ * Author:            	Femi
+ * Author URI:        	http://www.femiyb.com
+ * License:            	GPL-2.0+
+ * License URI:        	http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:         woo-simple-hooks
+ * Domain Path:         /languages
  */
  
  /**
@@ -33,6 +37,9 @@ function run_wcsh_Loader() {
 }
 run_wcsh_Loader();
 
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { // Check if woocommerce is active
+
+
 // Simple Hooks Settings Page
 add_action('admin_menu', 'wcsh_menu');
 function wcsh_menu() {
@@ -40,7 +47,6 @@ function wcsh_menu() {
   	add_action( 'admin_init', 'update_wcsh_settings' );
 }
 
-if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { // Check if woocommerce is active
 
 // Create function to register plugin settings in the database
 if( !function_exists("update_wcsh_settings") )
@@ -165,8 +171,9 @@ function wcsh_settings_page(){
 						"Before Mini Cart Contents Hook"=>"wcsh_before_mini_cart_contents"
 					   );
 ?>
-
-  		<h1>Simple Hooks Settings</h1>
+		<?php $settings_image = plugin_dir_url( __FILE__ ) . 'icon-256x256.png'; ?>
+  		<h1 style="font-family: monospace;text-transform: uppercase;">Simple Hooks Settings</h1>
+  		<img src="<?php echo $settings_image; ?>" style="width: 4%;">
   		<form method="post" action="options.php">
   			<style>
 			textarea.wcsh-textarea {
@@ -176,6 +183,7 @@ function wcsh_settings_page(){
 			</style>
 
   			<?php
+  			$active_tab = "header-options";
             if( isset( $_GET[ 'tab' ] ) ) {
                 $active_tab = $_GET[ 'tab' ];
             	}
