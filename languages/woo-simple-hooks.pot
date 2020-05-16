@@ -1,0 +1,347 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Hooks for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-16 19:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.4; wp-5.4.1"
+
+#: woocommerce-simple-hooks.php:98
+msgid "Before Shop Page Main Content"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:99
+msgid "Shop Page Archive Description"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:100
+msgid "Shop Page Before Shop Loop Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:101
+msgid "Shop Page Before Shop Loop Item"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:102
+msgid "Shop Page Before Shop Loop Item Title"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:103
+msgid "Shop Page Shop Loop Item Title"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:104
+msgid "Shop Page After Shop Loop Item Title"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:105
+msgid "Shop Page After Shop Loop Item"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:106
+msgid "Shop Page After Shop Loop"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:110
+msgid "Single Product Before single product hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:111
+msgid "Single Product Before single product Summary hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:112
+msgid "Single Product Summary hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:113
+msgid "Single Product Simple Add to Cart hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:114
+msgid "Single Product Before Add to Cart Form hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:115
+msgid "Single Product Before Add to Cart Button hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:116
+msgid "Single Product Before Add to Cart Quantity hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:117
+msgid "Single Product After Add to Cart Quantity hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:118
+msgid "Single Product After Add to Cart Button hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:119
+msgid "Single Product After Add to Cart Form hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:120
+msgid "Single Product Thumbnails hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:121
+msgid "Single Product After Product Summary hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:122
+msgid "Single Product Meta Start hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:123
+msgid "Single Product Meta End hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:128
+msgid "Cart Page Before Cart Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:129
+msgid "Cart Page Before Cart Table Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:130
+msgid "Cart Page Before Cart Contents"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:131
+msgid "Cart Page Cart Contents"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:132
+msgid "Cart Page Cart Coupon"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:133
+msgid "Cart Page Cart Actions Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:134
+msgid "Cart Page After Cart Contents Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:135
+msgid "Cart Page After Cart Table Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:136
+msgid "Cart Page Before Cart Totals Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:137
+msgid "Cart Page Cart Totals Before Shipping Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:138
+msgid "Cart Page After Shipping Rate"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:139
+msgid "Cart Page Before Shipping Calculator"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:140
+msgid "Cart Page After Shipping Calculator"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:141
+msgid "Cart Page Cart Totals After Shipping"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:142
+msgid "Cart Page Cart Totals Before Order Total"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:143
+msgid "Cart Page Cart Totals After Order Total"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:144
+msgid "Cart Page Proceed To Checkout"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:145
+msgid "Cart Page After Cart Totals"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:146
+msgid "Cart Page After Cart"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:147
+msgid "Checkout Page Review Order Before Payment Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:151
+msgid "Account Page Login Form Start Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:152
+msgid "Account Page Before Customer Login Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:153
+msgid "Checkout Page Login Form Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:154
+msgid "Checkout Page Login Form End Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:155
+msgid "Checkout Page After Customer Login Form Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:159
+msgid "Checkout Page Before Checkout Form"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:160
+msgid "Checkout Page Before Customer Details"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:161
+msgid "Checkout Page After Customer Details"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:162
+msgid "Checkout Page Checkout Billing Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:163
+msgid "Checkout Page Before Checkout Billing Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:164
+msgid "Checkout Page Before Order Review Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:165
+msgid "Checkout Page Review Order Before Cart Contents Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:166
+msgid "Checkout Page Review Order After Cart Contents Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:167
+msgid "Checkout Page Review Before Shipping Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:168
+msgid "Checkout Page After Shipping Rate Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:169
+msgid "Checkout Page Review Order After Shipping Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:170
+msgid "Checkout Page Review Order Before Order Total Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:171
+msgid "Checkout Page Review Order After Order Total Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:172
+msgid "Checkout Page After Checkout Billing Form Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:173
+msgid "Checkout Page Before Checkout registration Form Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:174
+msgid "Checkout Page Before Terms and Conditions Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:175
+msgid "Checkout Page Review Order After Submit Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:176
+msgid "Checkout Page Review Order After Payment Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:177
+msgid "Checkout Page After Checkout Form Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:181
+msgid "Before Mini Cart Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:182
+msgid "Before Mini Cart Contents Hook"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:186
+msgid "Simple Hooks Settings"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:218
+msgid "WOOCOMMERCE SINGLE PRODUCT PAGE HOOKS"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:234
+msgid "WOOCOMMERCE CART PAGE HOOKS"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:250
+msgid "WOOCOMMERCE CHECKOUT PAGE HOOKS"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:266
+msgid "WOOCOMMERCE ACCOUNT PAGE HOOKS"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:282
+msgid "WOOCOMMERCE OTHER HOOKS"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:299
+msgid "WOOCOMMERCE SHOP PAGE HOOKS"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:326
+msgid "Simple Hooks Plugin requires the WooCommerce Plugin"
+msgstr ""
+
+#. Name of the plugin
+msgid "Simple Hooks for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin makes it easier for you to add WooCommerce hooks, so if you "
+"don't know your way around php, you can easily add the hooks from the "
+"dashboard."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://femiyb.co.za"
+msgstr ""
+
+#. Author of the plugin
+msgid "Femi"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.femiyb.com"
+msgstr ""

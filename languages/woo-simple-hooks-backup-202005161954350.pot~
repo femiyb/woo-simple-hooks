@@ -1,0 +1,47 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Hooks for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-16 19:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.4; wp-5.4.1"
+
+#: woocommerce-simple-hooks.php:98
+msgid "Before Shop Page Main Content"
+msgstr ""
+
+#: woocommerce-simple-hooks.php:99
+msgid "Shop Page Archive Description"
+msgstr ""
+
+#. Name of the plugin
+msgid "Simple Hooks for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin makes it easier for you to add WooCommerce hooks, so if you "
+"don't know your way around php, you can easily add the hooks from the "
+"dashboard."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://femiyb.co.za"
+msgstr ""
+
+#. Author of the plugin
+msgid "Femi"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.femiyb.com"
+msgstr ""
