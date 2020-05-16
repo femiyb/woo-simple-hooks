@@ -3,8 +3,8 @@ Contributors: femiyb
 Tags: woocommerce, hooks, woocommerce hooks
 Donate link: https://paypal.me/femiyb
 Requires at least: 4.4
-Tested up to: 5.1
-Stable tag: 1.0.2
+Tested up to: 5.4.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ Of course! Please fork the [GitHub](https://github.com/femiyb/woo-simple-hooks/)
 2. Shop Page with Simple Hooks
 
 == Changelog ==
+
+= 1.1.9 - 16/05/2020 =
+* Fixed compability with WordPress 5.0
 
 = 1.0.2 - 15/02/2019 =
 * Fixed compability with WordPress 5.0
