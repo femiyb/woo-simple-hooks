@@ -7,7 +7,7 @@
  * Plugin Name:       	Simple Hooks for WooCommerce
  * Plugin URI:        	http://femiyb.co.za
  * Description:       	This plugin makes it easier for you to add WooCommerce hooks, so if you don't know your way around php, you can easily add the hooks from the dashboard.
- * Version:           	1.1
+ * Version:           	1.1.1
  * Requires at least: 	4.4
  * Tested up to: 		5.4.1
  * WC requires at least:3.0.0
